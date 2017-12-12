@@ -1,0 +1,21 @@
+{
+  "name": "aws-sign-requests",
+  "version": "0.1.0",
+  "description": "Pretty, clean, console logs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Veldboom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RSC-IoT/aws-sign-requests.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "aws4": "^1.6.0",
+    "colors": "^1.1.2",
+    "install": "^0.10.2",
+    "npm": "^5.6.0"
+  }
+}
