@@ -1,6 +1,11 @@
 # AWS Sign Requests
 Quick wrapper around [aws4](https://github.com/mhart/aws4) to sign and prepare requests to AWS API Gateway using AWS Signature Version 4. Specifically design to make API requests to API Gateway authenticated with `AWS_IAM`.
 
+## Install
+```
+npm install aws-sign-requests --save
+```
+
 ## Basic Usage with All Options
 ```javascript
 const awsSignRequests = require('aws-sign-requests');
