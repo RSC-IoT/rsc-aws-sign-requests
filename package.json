@@ -1,6 +1,6 @@
 {
   "name": "aws-sign-requests",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Signs and prepares requests using AWS Signature Version 4",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "aws4": "^1.6.0",
-    "colors": "^1.1.2",
-    "install": "^0.10.2",
-    "npm": "^5.6.0"
+    "aws4": "^1.6.0"
   }
 }
