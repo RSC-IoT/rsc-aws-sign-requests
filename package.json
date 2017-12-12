@@ -1,7 +1,7 @@
 {
   "name": "aws-sign-requests",
   "version": "0.1.0",
-  "description": "Pretty, clean, console logs.",
+  "description": "Signs and prepares requests using AWS Signature Version 4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
