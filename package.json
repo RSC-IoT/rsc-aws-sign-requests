@@ -1,6 +1,6 @@
 {
   "name": "aws-sign-requests",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Signs and prepares requests using AWS Signature Version 4",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,6 @@
     "type": "git",
     "url": "https://github.com/RSC-IoT/aws-sign-requests.git"
   },
-  "license": "ISC",
-  "dependencies": {
-    "aws4": "^1.6.0"
-  }
+  "license": "Apache 2.0",
+  "dependencies": {}
 }

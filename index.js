@@ -1,16 +1,17 @@
-const aws4 = require('aws4');
+const Signer = require('./lib/Signer');
 
-module.exports = ({credentials, method, timeout, host, path, body, headers={'Content-Type': 'application/json'}}) => {
+module.exports = ({credentials, method='GET', url, body, headers={'Content-Type': 'application/json'}}) => {
 
-    host = host.replace(/(^\w+:|^)\/\//,''); // remove protocol
+    if(typeof body === 'object') body = JSON.stringify(body);
 
-    return aws4.sign({
+    let request = {
         method,
-        host,
-        path,
-        timeout,
+        url,
         headers,
-        body
-    }, credentials);
+        data: body,
+        body: body
+    };
+
+    return Signer(request,credentials)
 
 };
