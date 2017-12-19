@@ -19,6 +19,10 @@ let options = awsSignRequests({
     },
     method: "POST",
     url: "https://example.com/foo",
+    service_info: {
+        service: "execute-api",
+        region: "us-east-1"
+    },
     headers: {
         "Content-Type": "application/json"
     },
